@@ -57,7 +57,7 @@ const Menu = () => {
 
 
     return (
-        <section id='menu' aria-labelledby='menu-heading'>
+        <section id='menu' aria-labelledby='menu-heading' className='overflow-y-hidden'>
             <img src="/images/slider-left-leaf.png" alt="left-leaf" id='m-left-leaf' className='left-leaf' />
             <img src="/images/slider-right-leaf.png" alt="right-leaf" id='m-right-leaf' className='right-leaf' />
 
