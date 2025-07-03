@@ -11,24 +11,24 @@ const Navbar = () => {
                 start: "bottom top"
             }
         })
- navTween.fromTo(
-     "nav",
-    {
-      backgroundColor: "transparent",
-      backdropFilter: "blur(0px)",
-    },
-    {
-      backgroundColor: "#00000050",
-      backdropFilter: "blur(10px)",
-      ease: "none",
-      scrollTrigger: {
-        trigger: "nav",
-        start: "top top",   // when nav hits top of viewport
-        end: "+=100",       // scroll range over 100px
-        scrub: true,        // smooth scroll binding
-      },
-    }
-  );
+        navTween.fromTo(
+            "nav",
+            {
+                backgroundColor: "transparent",
+                backdropFilter: "blur(0px)",
+            },
+            {
+                backgroundColor: "#00000050",
+                backdropFilter: "blur(10px)",
+                ease: "none",
+                scrollTrigger: {
+                    trigger: "nav",
+                    start: "top top",   // when nav hits top of viewport
+                    end: "+=100",       // scroll range over 100px
+                    scrub: true,        // smooth scroll binding
+                },
+            }
+        );
 
 
     })
